@@ -1,0 +1,23 @@
+{
+  "name": "console-chat",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "server": "node src/index.js --server",
+    "client": "node src/index.js --client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonza7aav/console-chat.git"
+  },
+  "author": "Aguirre Gonzalo Adolfo <gonza.a.aguirre@gmail.com> (https://github.com/gonza7aav)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonza7aav/console-chat/issues"
+  },
+  "homepage": "https://github.com/gonza7aav/console-chat#readme",
+  "dependencies": {
+    "commander": "^8.1.0"
+  }
+}
